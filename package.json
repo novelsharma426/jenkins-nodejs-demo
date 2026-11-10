@@ -1,0 +1,9 @@
+{
+  "name": "jenkins-nodejs-demo",
+  "version": "1.0.0",
+  "description": "My first Jenkins CI project",
+  "scripts": {
+    "test": "node test.js",
+    "build": "mkdir -p dist && cp app.js dist/app.js"
+  }
+}
